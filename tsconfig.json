@@ -19,8 +19,14 @@
         "name": "next"
       }
     ],
+    // Path: tsconfig.json
+    // These are the custom path defined the developer to avoid the relative path hell
     "paths": {
-      "@/*": ["./src/*"]
+      "@/*": ["./src/*"],
+      "@/styles/*": ["./src/app/styles/*"],
+      "@/lib/*": ["./src/app/lib/*"],
+      "@/components/*": ["./src/app/components/*"],
+      "@/ui/*": ["./src/app/components/ui/*"]
     }
   },
   "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts"],
