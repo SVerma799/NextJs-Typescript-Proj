@@ -15,3 +15,10 @@
     --background-end-rgb: 0, 0, 0;
   }
 }
+
+.dark .three-d {
+  text-shadow: 0px 5px 0px #533519;
+}
+.three-d {
+  text-shadow: none;
+}
